@@ -1,0 +1,500 @@
+    4  grep himanshu xyz.txt 
+    5  echo" $(grep himanshu xyz.txt)"
+    6  echo "$(grep himanshu xyz.txt)"
+    7  echo "(grep himanshu xyz.txt)"
+    8  openssl s_client -connect ifl.snsp.eu1.hana.ondemand.com:443 -showcerts
+    9  openssl s_client -connect ifl.snsp.eu1.hana.ondemand.com:443 -showcerts
+   10  ifl.snsp.eu1.hana.ondemand.com /C=IE/O=Baltimore/OU=CyberTrust/CN=Baltimore CyberTrust Root
+   11  /O=Cybertrust Inc/CN=Cybertrust Public SureServer SV CA
+   12  /O=Cybertrust Inc/CN=Cybertrust SureServer Standard Validation CA
+   13  /O=Entrust.net/OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.)/OU=(c) 1999 Entrust.net Limited/CN=Entrust.net Certification Authority (2048)
+   14  /C=US/O=Entrust, Inc./OU=www.entrust.net/rpa is incorporated by reference/OU=(c) 2009 Entrust, Inc./CN=Entrust Certification Authority - L1C
+   15  /C=US/O=Entrust, Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2010 Entrust, Inc./CN=Entrust Class 1 Client CA
+   16  /C=US/O=Entrust, Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006 Entrust, Inc./CN=Entrust Root Certification Authority
+   17  /C=US/O=GeoTrust Inc./CN=GeoTrust Global CA
+   18  /C=US/O=GTE Corporation/OU=GTE CyberTrust Solutions, Inc./CN=GTE CyberTrust Global Root
+   19  /C=DE/O=SAP Trust Community/CN=SAP Passport CA
+   20  /C=DE/O=TC TrustCenter GmbH/OU=TC TrustCenter Class 2 CA/CN=TC TrustCenter Class 2 CA II
+   21  /C=DE/O=TC TrustCenter GmbH/OU=TC TrustCenter Class 2 L1 CA/CN=TC TrustCenter Class 2 L1 CA XI
+   22  /C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 1999 VeriSign, Inc. - For authorized use only/CN=VeriSign Class 1 Public Primary Certification Authority - G3
+   23  /C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=Terms of use at https://www.verisign.com/rpa (c)10/CN=VeriSign Class 3 International Server CA - G3
+   24  /C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=(c) 2006 VeriSign, Inc. - For authorized use only/CN=VeriSign Class 3 Public Primary Certification Authority - G5
+   25  /C=US/O=VeriSign, Inc./OU=VeriSign Trust Network/OU=Terms of use at https://www.verisign.com/rpa (c)10/CN=VeriSign Class 3 Secure Server CA - G3
+   26  /C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./CN=Go Daddy Root Certificate Authority - G2
+   27  /C=US/O=Entrust, Inc./OU=See www.entrust.net/legal-terms/OU=(c) 2009 Entrust, Inc. - for authorized use only/CN=Entrust Root Certification Authority - G2
+   28  /C=US/O=Entrust, Inc./OU=See www.entrust.net/legal-terms/OU=(c) 2012 Entrust, Inc. - for authorized use only/CN=Entrust Certification Authority - L1K
+   29  /C=SE/O=AddTrust AB/OU=AddTrust External TTP Network/CN=AddTrust External CA Root
+   30  /C=IE/O=Baltimore/OU=CyberTrust/CN=Baltimore CyberTrust Root
+   31  ll
+   32  vi test.sh
+   33  vi deploy.sh 
+   34  curl https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK
+   35  vi deploy.sh 
+   36  curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+   37  vi test.sh 
+   38  curl https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK|grep hell
+   39  vi test.sh 
+   40  curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK|grep -Fxq "\"stat\"\ \:\ \"error\""
+   41  curl https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK|grep hell
+   42  curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK|grep -Fxq "\"state\"\ \:\ \"error\""
+   43  curl https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK|grep hell
+   44  curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK|grep error
+   45  curl https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK|grep hell
+   46  echo $(curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK|grep -q error)
+   47  echo $(curl https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK|grep -q hell)
+   48  echo $(curl -o /dev/null https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK|grep -q hell)
+   49  echo $(curl -s -o /dev/null -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK|grep -q error)
+   50  vi /dev/null 
+   51  cd /dev/null 
+   52  ll
+   53  ll
+   54  ll -ltr
+   55  vi test.sh 
+   56  sh test.sh 
+   57  vi test.sh 
+   58  sh test.sh 
+   59  echo $(curl -o /dev/null https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK|grep hell)
+   60  curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+   61  curl  https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK
+   62  vi deploy.sh 
+   63  vi test.sh 
+   64  vi test.sh 
+   65  vi test.sh 
+   66  curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+   67  sh test.sh 
+   68  ci test.sh 
+   69  vi test.sh 
+   70  sh test.sh 
+   71  cat test.sh 
+   72  vi deploy.sh 
+   73  curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+   74  vi deploy.sh 
+   75  sh deploy.sh 
+   76  vi deploy.sh 
+   77  sh deploy.sh 
+   78  vi deploy.sh 
+   79  sh deploy.sh 
+   80  vi deploy.sh 
+   81  sh deploy.sh 
+   82  vi deploy.sh 
+   83  sh deploy.sh 
+   84  vi deploy.sh 
+   85  sh deploy.sh 
+   86  vi deploy.sh 
+   87  sh deploy.sh 
+   88  sh deploy.sh 
+   89  sh deploy.sh 
+   90  vi deploy.sh 
+   91  sh deploy.sh 
+   92  vi deploy.sh 
+   93  vi test.sh 
+   94  vi deploy.sh 
+   95  sh deploy.sh 
+   96  vi deploy.sh 
+   97  sh deploy.sh 
+   98  vi deploy.sh 
+   99  sh deploy.sh 
+  100  vi deploy.sh 
+  101  sh deploy.sh 
+  102  vi deploy.sh 
+  103  curl -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+  104  sh deploy.sh 
+  105  vi deploy.sh 
+  106  curl  https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK
+  107  (curl -s -o /dev/null -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK)|grep "error")
+  108  (curl -s -o /dev/null -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK)|grep "error"
+  109  vi test.sh 
+  110  vi test.sh 
+  111  sh test.sh 
+  112  vi test.sh 
+  113  (curl -s -o /dev/null -X POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK)|grep "error"
+  114  sh test.sh 
+  115  vi test.sh 
+  116  vi deploy.sh 
+  117  sh deploy.sh 
+  118  vi deploy.sh 
+  119  ps -ef|grep zab
+  120  vi /etc/zabbix/zabbix_server.conf
+  121  vi /etc/zabbix/zabbix_server.conf
+  122  service zabbix stop
+  123  service zabbix-server  stop
+  124  service zabbix-server  start
+  125  vi /var/log/zabbix/zabbix_server.log
+  126  vi deploy.sh 
+  127  ps -ef|gep zab
+  128  ps -ef|grep zab
+  129  vi /etc/zabbix/zabbix_server.conf
+  130  service zabbix-server stop
+  131  service zabbix-server start
+  132  cd /mysql/
+  133  ll
+  134  cp deploy.sh deploy1.sh
+  135  vi deploy1.sh 
+  136  cd /mysql/
+  137  vi deploy1.sh 
+  138  vi deploy1.sh 
+  139  cd /mysql/
+  140  ll
+  141  vi deploy1.sh 
+  142  curl -X  POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+  143  sh deploy1.sh 
+  144  ll -ltr
+  145  l
+  146  ll
+  147  vi deploy1.sh 
+  148  vi deploy1.sh 
+  149  ll -ltr
+  150  vi deploy1.sh
+  151  vi deploy1.sh
+  152  ll -altr
+  153  rm .deploy1.sh.swo .deploy1.sh.swp
+  154  ll -tr
+  155  ll -ltr
+  156  curl -X  POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+  157  cd /mysql/
+  158  curl  https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK
+  159  curl -X  POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+  160  vi deploy1
+  161  vi deploy1.sh 
+  162  ll -latr
+  163  rm .deploy1.sh.swp.deploy1.sh.swp
+  164  vi deploy1.sh 
+  165  rm .deploy1.sh.swp .deploy1.sh.swo
+  166  ll -lrta
+  167  rm .deploy1.sh.swp .deploy1.sh.swo
+  168  vi deploy1.sh 
+  169  curl  https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK
+  170  sh deploy1.sh 
+  171  vi deploy1.sh 
+  172  sh deploy1.sh 
+  173  vi deploy1.sh 
+  174  sh deploy1.sh 
+  175  vi deploy1.sh 
+  176  sh deploy1.sh 
+  177  vi deploy1.sh 
+  178  sh deploy1.sh 
+  179  vi deploy1.sh 
+  180  sh deploy1.sh 
+  181  vi deploy.sh 
+  182  vi deploy1.sh 
+  183  vi deploy1.sh 
+  184  curl  https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -X DELETE -u vlabtest@sap.com:vlabokj@123JK
+  185  curl -X  POST -H "Content-type:application/x-www-form-urlencoded" https://vlabmgmt.apimanagement.hana.ondemand.com/v1/o/testrmporg/environments/prod/apis/facebook21/revisions/6/deployments -u vlabtest@sap.com:vlabokj@123JK
+  186  sh deploy1.sh 
+  187  vi deploy1.sh 
+  188  vi deploy1.sh 
+  189  sh deploy1.sh 
+  190  vi deploy1.sh 
+  191  sh deploy1.sh 
+  192  sh deploy1.sh 
+  193  ll -ltr
+  194  vi logs.txt 
+  195  vi deploy1.sh 
+  196  sh deploy1.sh 
+  197  echo $date
+  198  echo date
+  199  echo $timestampt
+  200  echo $timestamp
+  201  echo `date'
+  202  echo `date`
+  203  vi deploy1.sh 
+  204  sh deploy1.sh 
+  205  vi deploy1.sh 
+  206  sh deploy1.sh 
+  207  vi logs.txt 
+  208  rm logs.txt 
+  209  telnet 172.18.76.116 1101
+  210  telnet 172.18.76.38 1101
+  211  telnet 172.18.76.116 1101
+  212  telnet 172.18.76.116 1101
+  213  su zabbix
+  214  telnet 172.18.76.116 1101
+  215  ps -ef|grep java
+  216  ps -ef|grep gate
+  217  service zabbix-java-gateway stop
+  218  service zabbix-java-gateway start
+  219  service zabbix-server stop
+  220  service zabbix-server sta
+  221  service zabbix-java-gateway stop
+  222  service zabbix-java-gateway start
+  223  service zabbix-server stop
+  224  service zabbix-server start
+  225  cd /var/log/
+  226  ll 
+  227  cd zabbix/
+  228  ll
+  229  ll -ltr
+  230  vi zabbix_server.log
+  231  ll
+  232  ll -ltr
+  233  vi 
+  234  vi zabbix_java_gateway.logzabbix_java_gateway.log
+  235  vi zabbix_java_gateway.log
+  236  cd /var/log/zabbix/
+  237  ll -ltr
+  238  vi zabbix_server.log
+  239  curl "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v
+  240  telnet 172.18.102.179 8998
+  241  curl "http://172.18.76.116:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v
+  242  telnet 172.18.76.116 8998
+  243  vi .bashrc 
+  244  whereis proxy
+  245  cd ~
+  246  ll
+  247  ll -a
+  248  vi .bash_profile
+  249  vi .bashrc
+  250  vi /etc/bashrc
+  251  vi /etc/profile
+  252  vi /etc/
+  253  cd /etc/
+  254  ll -ltr
+  255  grep proxy *
+  256  vi wgetrc
+  257  vi environment 
+  258  curl "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v
+  259  curl "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v
+  260  curl "http://172.18.76.116:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v
+  261  cd /etc/
+  262  vi environment 
+  263  sudo du 
+  264  cd /var/log/zabbix/
+  265  ll -ltr
+  266  vi zabbix_server.log
+  267  cd /opt/api
+  268  cd /opt/apig
+  269  cd /etc/zabbix/
+  270  ll -ltre
+  271  ll -ltr
+  272  vi zabbix_server.conf 
+  273  service zabbix-server stop
+  274  service zabbix-server start
+  275  cd /var/log/
+  276  cd zabbix/zabbix_
+  277  cd zabbix/
+  278  ll -ltr
+  279  vi zabbix_server.log
+  280  vi zabbix_server.log
+  281  grep 172.18.76.116 zabbix_server.log|more
+  282  grep 172.18.76.116 zabbix_server.log|more
+  283  !
+  284  ll -ltr
+  285  ll -lre
+  286  ll -ltr
+  287  vi zabbix_server.log
+  288  vi zabbix_server.log
+  289  grep HOST.HOST zabbix_server.log
+  290  vi zabbix_server.log
+  291  vi zabbix_server.log
+  292  vi zabbix_server.log
+  293  curl "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v
+  294  curl "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v -X 
+  295  vi ~/.bashrc
+  296  vi /etc/bashrc
+  297  cd /etc/profile.d/
+  298  ll
+  299  ll -ltr
+  300  v iproxy_settings.sh
+  301  vi proxy_settings.sh
+  302  curl "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v -X 
+  303  curl "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v 
+  304  curl "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v 
+  305  cd /etc/profile.d/
+  306  ll -ltr
+  307  vi proxy_settings.sh
+  308  grep proxy *
+  309  vi /etc/bashrc
+  310  curl --noproxy "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v 
+  311  curl -x "http://172.18.102.179:8998" -H "Connection:keep-alive" -H "X-Apigee.heartbeat:true" -v 
+  312  cat /proc/sys/fs/file-nr
+  313  cd /usr/local/etc/
+  314  ll
+  315  vi /etc/zabbix/zabbix_server.conf 
+  316  cd /mysql/
+  317  ll -ltr
+  318  vi openfiles.sh
+  319  pvcreate /dev/grafana
+  320  vgcreate vg_grafana /dev/grafana
+  321  lvcreate -l 100%FREE -n lv_grafana vg_grafana
+  322  mkfs.ext3 /dev/vg_grafana/lv_grafana
+  323  mount /dev/vg_grafana/lv_grafana /opt/apigee/ 
+  324  mkdir /opt/apigee/
+  325   mount /dev/vg_grafana/lv_grafana /opt/apigee/
+  326  ll -ltr
+  327  cd /opt/apigee/
+  328  ll
+  329  df -h
+  330  cd /tmp/
+  331  ll -lltr
+  332  tar -xvf apigee-4.17.05.tar.gz 
+  333  wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" -O jdk-8u112-linux-x64.rpm http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.rpm
+  334  touch /usr/sbin/alternatives
+  335  chmod 777 /usr/sbin/alternatives
+  336  rpm -ivh jdk-8u112-linux-x64.rpm
+  337  cd repos/
+  338  ll
+  339  sudo bash /tmp/repos/bootstrap_4.17.05.sh apigeeprotocol="file://" apigeerepobasepath=/tmp/repos
+  340  df -h
+  341  vi /etc/zabbix/zabbix_server.conf 
+  342  service zabbix-server stop
+  343  cd /var/log/
+  344  cd zabbix/
+  345  ll
+  346  rm zabbix_server.log
+  347  rm zabbix_server.log-20171210.gz zabbix_server.log-20171217.gz  zabbix_server.log-20171224.gz zabbix_server.log-20180101.gz
+  348  y
+  349  y
+  350  y
+  351  sudo bash /tmp/repos/bootstrap_4.17.05.sh apigeeprotocol="file://" apigeerepobasepath=/tmp/repos
+  352  source /etc/profile.d/apigee-service.sh 
+  353  /opt/apigee/apigee-service/bin/apigee-service apigee-influxdb install
+  354  /opt/apigee/apigee-service/bin/apigee-service apigee-influxdb setup
+  355  /opt/apigee/apigee-service/bin/apigee-service apigee-influxdb start
+  356  service zabbix-server start
+  357  /opt/apigee/apigee-service/bin/apigee-service apigee-grafana install
+  358  vi /opt/apigee/customer/application/sa_grafana.txt
+  359  chown apigee:apigee /opt/apigee/customer/application/sa_grafana.txt
+  360  cat /opt/apigee/customer/application/sa_grafana.txt
+  361  /opt/apigee/apigee-service/bin/apigee-service apigee-grafana setup -f /opt/apigee/customer/application/sa_grafana.txt
+  362  /opt/apigee/apigee-service/bin/apigee-service apigee-grafana restart
+  363  telnet 172.18.102.216 1099
+  364  vi /var/log/zabbix/zabbix_java_gateway.log
+  365  vi /var/log/zabbix/zabbix_java_gateway.log
+  366  vi /var/log/zabbix/zabbix_java_gateway.log
+  367  service zabbix-server stop
+  368  service zabbix-java-gateway st
+  369  service zabbix-java-gateway start
+  370  service zabbix-server start
+  371  vi /var/log/zabbix/zabbix_java_gateway.log
+  372  date
+  373  date
+  374  date
+  375  vi /var/log/zabbix/zabbix_java_gateway.log
+  376  grep 172.18.102.216 /var/log/zabbix/zabbix_java_gateway.log
+  377  grep -w 172.18.102.216 /var/log/zabbix/zabbix_java_gateway.log
+  378  vi /var/log/zabbix/zabbix_java_gateway.log
+  379  date
+  380  date
+  381  date
+  382  vi /var/log/zabbix/zabbix_java_gateway.log
+  383  whereisjava
+  384  whereis java
+  385  l /usr/share/java
+  386  ll /usr/bin/java
+  387  ll /etc/alternatives/java
+  388  cd /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/
+  389  ll
+  390  cd bi
+  391  cd in
+  392  cd  bin
+  393  ll|grep jconsoel
+  394  ll|grep jconsole
+  395  ./jconsole service:jmx:rmi:///jndi/rmi://172.18.102.216:1099/jmxrmi
+  396  vi /var/log/zabbix/zabbix_java_gateway.log
+  397  ip route
+  398  curl -v http://www.google.com
+  399  curl -v http://www.google.com --no-proxy
+  400  curl -v http://www.google.com --no-proxy
+  401  curl --manual
+  402  curl --manual|grep proxy
+  403  curl -v http://www.google.com  --noproxy
+  404  curl -v http://www.google.com  --noproxy google
+  405  apigee-service 
+  406  apigee-service apigee-influxdb stop
+  407  apigee-all stop
+  408  apigee-all start
+  409  telnet 172.18.102.113 1101
+  410  cd /var/log/zabbix/zabbix_java_gateway.log
+  411  vi /var/log/zabbix/zabbix_java_gateway.log
+  412  wget https://www.zabbix.org/wiki/Docs/howto/zabbix_get_jmx
+  413  ll -lgr
+  414  chmod 777 zabbix_get_jmx 
+  415  sudo zabbix zabbix_get_jmx 127.0.0.1 10052 172.18.102.112 1099 'jmx[\"java.lang:type=Memory\",HeapMemoryUsage.max]'
+  416  su zabbix zabbix_get_jmx 127.0.0.1 10052 172.18.102.112 1099 'jmx[\"java.lang:type=Memory\",HeapMemoryUsage.max]'
+  417   zabbix_get_jmx 127.0.0.1 10052 172.18.102.112 1099 'jmx[\"java.lang:type=Memory\",HeapMemoryUsage.max]'
+  418  ./ zabbix_get_jmx 127.0.0.1 10052 172.18.102.112 1099 'jmx[\"java.lang:type=Memory\",HeapMemoryUsage.max]'
+  419  ./zabbix_get_jmx 127.0.0.1 10052 172.18.102.112 1099 'jmx[\"java.lang:type=Memory\",HeapMemoryUsage.max]'
+  420  ping 172.18.76.140
+  421  cd /opt/apigee/
+  422  ls
+  423  apigee-all status
+  424  java -version
+  425  vi file
+  426  vi file
+  427   curl -w "@file" -o /dev/null -s "https://google.com"
+  428   curl -w "@file" -o /dev/null -s "https://google.com"
+  429   curl -w "@file" -o /dev/null -s "https://google.com"
+  430   curl -w "@file" -o /dev/null -s "https://google.com"
+  431  ll
+  432  ll
+  433  ll
+  434  cd
+  435  ll
+  436  cat git_ssh 
+  437  cd rpmbuild/
+  438  ll
+  439  cd BUILD
+  440  ll
+  441  cd zabbix-3.2.5/
+  442  ll
+  443  cd ..
+  444  ll
+  445  cd ..
+  446  ll
+  447  cd SOURCES/
+  448  LL
+  449  ll
+  450  cat zabbix-agent.init 
+  451  ll
+  452  ll
+  453  cat zabbix-logrotate.in 
+  454  cd 
+  455  ll
+  456  cd /var/log/zabbix/zabbix_COMPONENT.log
+  457  l
+  458  cd /var/log/zabbix
+  459  ll
+  460  cd ..
+  461  ll
+  462  cd 
+  463  service zabbix status
+  464  ll
+  465  cd ..
+  466  cd /opt/
+  467  ll
+  468  cd apigee/
+  469  ll
+  470  cd //
+  471  cd ..
+  472  cd 
+  473  cd /tmp/
+  474  ll
+  475  cd hsperfdata_zabbix/
+  476  ll
+  477  cd /var/log/zabbix/
+  478  ll
+  479  cd 
+  480  ll
+  481  which zabbix
+  482  ll
+  483  cd 
+  484  ll
+  485  cd rpmbuild/
+  486  ll
+  487  cd SRPMS/
+  488  LL
+  489  ll
+  490  cd ..
+  491  cd SPECS/
+  492  LL
+  493  ll
+  494  cat zabbix.spec 
+  495  ll
+  496  history
+  497  ll
+  498  cd  ..
+  499  cd ..
+  500  /opt/apigee/apigee-zookeeper/contrib
+  501  cd 
+  502  history
+  503  history > steps
